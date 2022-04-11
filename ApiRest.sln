@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Apresentação", "0-Apresentação", "{2DAA893B-1D31-426C-9F4B-00BB878A04EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARApresentação", "ARApresentação\ARApresentação.csproj", "{5423F49F-6C1F-42C6-86D4-FB951C5D43A5}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5423F49F-6C1F-42C6-86D4-FB951C5D43A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5423F49F-6C1F-42C6-86D4-FB951C5D43A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5423F49F-6C1F-42C6-86D4-FB951C5D43A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5423F49F-6C1F-42C6-86D4-FB951C5D43A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5423F49F-6C1F-42C6-86D4-FB951C5D43A5} = {2DAA893B-1D31-426C-9F4B-00BB878A04EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D692D1EC-4BDF-4BFF-914E-4906F09A6612}
